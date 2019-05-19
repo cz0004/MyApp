@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <div id="app">
+        <i-menu mode="horizontal" :theme="menuTheme" active-name="1">
+            <Menu-Item name="1">
+                <Icon type="ios-paper"></Icon>时事新闻
+            </Menu-Item>
+            <Menu-Item name="2">
+                <Icon type="ios-people"></Icon>时事评论
+            </Menu-Item>
+            <Submenu name="3">
+                <template slot="title">
+                    <Icon type="stats-bars"></Icon>特邀专家
+                </template>
+                <Menu-Group title="国际专家">
+                    <Menu-Item name="3-1">张无忌</Menu-Item>
+                    <Menu-Item name="3-2">赵　敏</Menu-Item>
+                    <Menu-Item name="3-3">张三丰</Menu-Item>
+                </Menu-Group>
+                <Menu-Group title="国内专家">
+                    <Menu-Item name="3-4">萧　峰</Menu-Item>
+                    <Menu-Item name="3-5">虚　竹</Menu-Item>
+                </Menu-Group>
+            </Submenu>
+            <Menu-Item name="4">
+                <Icon type="settings"></Icon>
+            </Menu-Item>
+        </i-menu>
+
+    </div>
+<script>
+    new Vue({
+        el: '#app',
+        data() {
+            return {
+                visible: false,
+                 menuTheme: 'light'  
+            }
+
+        },
+        methods: {
+            show: function () {
+                this.visible = true;
+            },
+            onMenuSelect:function(name){  
+                    console.log(name," is clicked!");  
+                    if(name==="4"){  
+                        window.location.href='http://wallimn.iteye.com';  
+                    }  
+                }  
+        }
+    })
+</script>
