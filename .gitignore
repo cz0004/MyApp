@@ -3,3 +3,15 @@
 ################################################################################
 
 /MyApp/bin/Debug/netcoreapp2.2
+/MyApp/node_modules
+/MyApp/obj
+/MyAppBLL/bin/Debug/netstandard2.0
+/MyAppBLL/obj/Debug/netstandard2.0
+/MyAppDAL/bin/Debug/netstandard2.0
+/MyAppDAL/obj/Debug/netstandard2.0
+/MyAppModel/bin/Debug/netstandard2.0
+/MyAppModel/obj/Debug/netstandard2.0
+/.vs/MyApp/v16
+/MyAppCommon/bin/Debug/netstandard2.0
+/MyAppDAL/obj
+/MyAppCommon/obj/Debug/netstandard2.0
