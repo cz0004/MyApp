@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="wilx.System.Linq.Dynamic.Core" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MyAppCommon\MyAppCommon.csproj" />
     <ProjectReference Include="..\MyAppDAL\MyAppDAL.csproj" />
     <ProjectReference Include="..\MyAppModel\MyAppModel.csproj" />

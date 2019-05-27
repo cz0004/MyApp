@@ -17,12 +17,16 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="wilx.System.Linq.Dynamic.Core" Version="2.1.0" />
   </ItemGroup>
 
 
   <ItemGroup>
     <ProjectReference Include="..\MyAppBLL\MyAppBLL.csproj" />
+    <ProjectReference Include="..\MyAppCommon\MyAppCommon.csproj" />
+    <ProjectReference Include="..\MyAppDAL\MyAppDAL.csproj" />
     <ProjectReference Include="..\MyAppModel\MyAppModel.csproj" />
+    <ProjectReference Include="..\MyAppService\MyAppService.csproj" />
   </ItemGroup>
 
 </Project>

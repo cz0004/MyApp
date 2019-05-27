@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="wilx.System.Linq.Dynamic.Core" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyAppBLL\MyAppBLL.csproj" />
+    <ProjectReference Include="..\MyAppCommon\MyAppCommon.csproj" />
+    <ProjectReference Include="..\MyAppDAL\MyAppDAL.csproj" />
+    <ProjectReference Include="..\MyAppModel\MyAppModel.csproj" />
+  </ItemGroup>
+
+</Project>

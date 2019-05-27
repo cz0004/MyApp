@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "wilx.System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [
@@ -91,7 +95,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj": {
+                "projectPath": "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -108,6 +116,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "wilx.System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [
@@ -164,6 +176,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "wilx.System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [
@@ -230,6 +246,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "wilx.System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [

@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp", "MyApp\MyApp.csproj", "{6E612159-365F-49ED-B82E-24BC3F3D6E44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppBLL", "MyAppBLL\MyAppBLL.csproj", "{26FFAF06-458B-4DCE-B0EF-661C7A65B848}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAppBLL", "MyAppBLL\MyAppBLL.csproj", "{26FFAF06-458B-4DCE-B0EF-661C7A65B848}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppDAL", "MyAppDAL\MyAppDAL.csproj", "{9932ECA6-F80E-41B9-B97B-B93194D861E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAppDAL", "MyAppDAL\MyAppDAL.csproj", "{9932ECA6-F80E-41B9-B97B-B93194D861E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppModel", "MyAppModel\MyAppModel.csproj", "{5D163141-63AA-4266-A122-99F958AF464F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAppModel", "MyAppModel\MyAppModel.csproj", "{5D163141-63AA-4266-A122-99F958AF464F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppCommon", "MyAppCommon\MyAppCommon.csproj", "{E736E7F9-32BE-44B3-8C71-2110F7F45312}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAppCommon", "MyAppCommon\MyAppCommon.csproj", "{E736E7F9-32BE-44B3-8C71-2110F7F45312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppService", "MyAppService\MyAppService.csproj", "{8EDAC7BF-E2B2-4617-B1CA-E063B24FB032}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E736E7F9-32BE-44B3-8C71-2110F7F45312}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E736E7F9-32BE-44B3-8C71-2110F7F45312}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E736E7F9-32BE-44B3-8C71-2110F7F45312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDAC7BF-E2B2-4617-B1CA-E063B24FB032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDAC7BF-E2B2-4617-B1CA-E063B24FB032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDAC7BF-E2B2-4617-B1CA-E063B24FB032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDAC7BF-E2B2-4617-B1CA-E063B24FB032}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

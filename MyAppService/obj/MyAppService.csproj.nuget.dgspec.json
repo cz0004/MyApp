@@ -1,0 +1,333 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\学习\\MyApp\\MyAppService\\MyAppService.csproj": {}
+  },
+  "projects": {
+    "D:\\学习\\MyApp\\MyAppBLL\\MyAppBLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\学习\\MyApp\\MyAppBLL\\MyAppBLL.csproj",
+        "projectName": "MyAppBLL",
+        "projectPath": "D:\\学习\\MyApp\\MyAppBLL\\MyAppBLL.csproj",
+        "packagesPath": "C:\\Users\\16410\\.nuget\\packages\\",
+        "outputPath": "D:\\学习\\MyApp\\MyAppBLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\16410\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\学习\\MyApp\\MyAppCommon\\MyAppCommon.csproj": {
+                "projectPath": "D:\\学习\\MyApp\\MyAppCommon\\MyAppCommon.csproj"
+              },
+              "D:\\学习\\MyApp\\MyAppDAL\\MyAppDAL.csproj": {
+                "projectPath": "D:\\学习\\MyApp\\MyAppDAL\\MyAppDAL.csproj"
+              },
+              "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj": {
+                "projectPath": "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "wilx.System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\学习\\MyApp\\MyAppCommon\\MyAppCommon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\学习\\MyApp\\MyAppCommon\\MyAppCommon.csproj",
+        "projectName": "MyAppCommon",
+        "projectPath": "D:\\学习\\MyApp\\MyAppCommon\\MyAppCommon.csproj",
+        "packagesPath": "C:\\Users\\16410\\.nuget\\packages\\",
+        "outputPath": "D:\\学习\\MyApp\\MyAppCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\16410\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj": {
+                "projectPath": "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "wilx.System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\学习\\MyApp\\MyAppDAL\\MyAppDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\学习\\MyApp\\MyAppDAL\\MyAppDAL.csproj",
+        "projectName": "MyAppDAL",
+        "projectPath": "D:\\学习\\MyApp\\MyAppDAL\\MyAppDAL.csproj",
+        "packagesPath": "C:\\Users\\16410\\.nuget\\packages\\",
+        "outputPath": "D:\\学习\\MyApp\\MyAppDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\16410\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj": {
+                "projectPath": "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "wilx.System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj",
+        "projectName": "MyAppModel",
+        "projectPath": "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj",
+        "packagesPath": "C:\\Users\\16410\\.nuget\\packages\\",
+        "outputPath": "D:\\学习\\MyApp\\MyAppModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\16410\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "wilx.System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\学习\\MyApp\\MyAppService\\MyAppService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\学习\\MyApp\\MyAppService\\MyAppService.csproj",
+        "projectName": "MyAppService",
+        "projectPath": "D:\\学习\\MyApp\\MyAppService\\MyAppService.csproj",
+        "packagesPath": "C:\\Users\\16410\\.nuget\\packages\\",
+        "outputPath": "D:\\学习\\MyApp\\MyAppService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\16410\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\学习\\MyApp\\MyAppBLL\\MyAppBLL.csproj": {
+                "projectPath": "D:\\学习\\MyApp\\MyAppBLL\\MyAppBLL.csproj"
+              },
+              "D:\\学习\\MyApp\\MyAppCommon\\MyAppCommon.csproj": {
+                "projectPath": "D:\\学习\\MyApp\\MyAppCommon\\MyAppCommon.csproj"
+              },
+              "D:\\学习\\MyApp\\MyAppDAL\\MyAppDAL.csproj": {
+                "projectPath": "D:\\学习\\MyApp\\MyAppDAL\\MyAppDAL.csproj"
+              },
+              "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj": {
+                "projectPath": "D:\\学习\\MyApp\\MyAppModel\\MyAppModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "wilx.System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
